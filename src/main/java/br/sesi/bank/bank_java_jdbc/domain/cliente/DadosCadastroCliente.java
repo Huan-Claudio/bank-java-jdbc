@@ -1,9 +1,6 @@
 package br.sesi.bank.bank_java_jdbc.domain.cliente;
 
-import br.sesi.bank.bank_java_jdbc.domain.conta.DadosAberturaConta;
-
 public class DadosCadastroCliente {
-
     public String nome;
     public String email;
     public String cpf;
@@ -13,4 +10,5 @@ public class DadosCadastroCliente {
         this.email = email;
         this.cpf = cpf;
     }
+
 }
